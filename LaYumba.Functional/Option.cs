@@ -63,7 +63,7 @@ namespace LaYumba.Functional
       public override int GetHashCode()
          => isNone ? 0 : value!.GetHashCode();
 
-      public override string ToString() => isSome ? $"Some({value})" : "None";
+    //  public override string ToString() => isSome  ? $"Some({value})" : "None";
    }
 
    public static class OptionExt
